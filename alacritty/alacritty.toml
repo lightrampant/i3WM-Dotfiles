@@ -1,0 +1,55 @@
+[window]
+title = "wildside"
+
+[window.padding]
+x = 10
+y = 10
+
+#Font
+[font]
+size = 10.0
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[cursor]
+blink_timeout = 0
+blink_interval = 500
+# Options: "Block", "Underline", "Beam"
+style.shape = "Underline"
+
+# Options: "Never", "Off", "On", "Always"
+style.blinking = "Always"
+
+[colors.primary]
+background = "#000000"
+foreground = "#C8D3F5"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#FFFFFF"
+
+[colors.selection]
+text = "#000000"
+background = "#1E90FF"
+
+[colors.normal]
+black   = "#000000"
+red     = "#FF3131"
+green   = "#00FF66"
+yellow  = "#FFD700"
+blue    = "#3399FF"
+magenta = "#B026FF"
+cyan    = "#00C8FF"
+white   = "#BFC7D5"
+
+[colors.bright]
+black   = "#3A3A3A"
+red     = "#FF5C5C"
+green   = "#5CFF9D"
+yellow  = "#FFE45C"
+blue    = "#4D6BFF"
+magenta = "#D580FF"
+cyan    = "#66E6FF"
+white   = "#FFFFFF"
